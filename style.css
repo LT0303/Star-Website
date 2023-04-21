@@ -9,3 +9,7 @@ body {
     margin: auto;
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+}
