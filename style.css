@@ -8,10 +8,12 @@ body {
     width: 100%;
     margin: auto;
     align-items: center;
+    text-align: center;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
+    color: rgb(197, 199, 201);
 }
 
 img {
