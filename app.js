@@ -55,7 +55,7 @@ const starInfo = {
     },
     rigel: {
         name: 'Rigel',
-        img: './img/betelgeuse.jpg',
+        img: './img/rigel.jpg',
         info: `<p>Also known as Beta Orionis, and located between 700 and 900 light years away, Rigel is the brightest star in the constellation Orion and the seventh 
         brightest star in the night sky. Here too, what appears to be a blue supergiant is actually a multistar system. The primary star (Rigel A) is a blue-white 
         supergiant that is 21 times more massive than our sun, and shines with approximately 120,000 times the luminosity.</p> <p>Rigel B is itself a binary system, consisting 
@@ -66,7 +66,7 @@ const starInfo = {
     },
     vega: {
         name: 'Vega',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/vega.jpg',
         info: `<p>Vega is another bright blue star that anchors the otherwise faint Lyra constellation (the Harp). Along with Deneb (from Cygnus) and Altair (from Aquila), 
         it is a part of the Summer Triangle in the Northern hemisphere. It is also the brightest star in the constellation Lyra, the fifth brightest star in the night sky 
         and the second brightest star in the northern celestial hemisphere (after Arcturus).</p> <p>Characterized as a white dwarf star, Vega is roughly 2.1 times as massive as 
@@ -80,7 +80,7 @@ const starInfo = {
     },
     pleiades: {
         name: 'Pleiades',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/pleiades.jpg',
         info: `<p>Also known as the “Seven Sisters”, Messier 45 or M45, Pleiades is actually an open star cluster located in the constellation of Taurus. At an average 
         distance of 444 light years from our Sun, it is one of the nearest star clusters to Earth, and the most visible to the naked eye. Though the seven largest stars are 
         the most apparent, the cluster actually consists of over 1,000 confirmed members (along with several unconfirmed binaries).</p> <p>The core radius of the cluster is about 
@@ -91,7 +91,7 @@ const starInfo = {
     },
     antares: {
         name: 'Antares',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/antares.jpg',
         info: `<p>Also known as Alpha Scorpii, Antares is a red supergiant and one of the largest and most luminous observable stars in the nighttime sky. It’s name – which is 
         Greek for “rival to Mars” (aka. Ares) – refers to its reddish appearance, which resembles Mars in some respects. It’s location is also close to the ecliptic, the 
         imaginary band in the sky where the planets, Moon and Sun move.</p> <p>This supergiant is estimated to be 17 times more massive, 850 times larger in terms of diameter, and 
@@ -102,7 +102,7 @@ const starInfo = {
     },
     canopus: {
         name: 'Canopus',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/canopus.jpg',
         info: `<p>Also known as Alpha Carinae, this white giant is the brightest star in the southern constellation of Carina and the second brightest star in the nighttime sky. 
         Located over 300 light-years away from Earth, this star is named after the mythological Canopus, the navigator for king Menelaus of Sparta in The Iliad.</p> <p>Though it was 
         not visible to the ancient Greeks and Romans, the star was known to the ancient Egyptians, as well as the Navajo, Chinese and ancient Indo-Aryan people. In Vedic 
