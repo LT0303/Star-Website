@@ -45,7 +45,7 @@ const starInfo = {
     },
     betelgeuse: {
         name: 'Betelgeuse',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/betelgeuse.jpg',
         info: `<p>Pronounced “Beetle-juice” (yes, the same as the 1988 Tim Burton movie), this bright red supergiant is roughly 65o light-year from Earth. Also 
         known as Alpha Orionis, it is nevertheless easy to spot in the Orion constellation since it is one of the largest and most luminous stars in the night 
         sky.</p> <p>The star’s name is derived from the Arabic name Ibt al-Jauza’, which literally means “the hand of Orion”. In 1985, Margarita Karovska and colleagues 
