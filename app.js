@@ -2,6 +2,8 @@ const starInfo = {
     polaris : {
         name: 'Polaris',
         img: './img/polaris.jpg',
+        imgSource: `Image credit: Kush.Chandaria - Own work, CC BY-SA 4.0 - <a
+        href="https://commons.wikimedia.org/w/index.php?curid=108074228">https://commons.wikimedia.org/w/index.php?curid=108074228</a>'`,
         info: `<p>Also known as the North Star (as well as the Pole Star, Lodestar, and sometimes Guiding Star), Polaris is the
         45th brightest star in the night sky. It is very close to the north celestial pole, which is why it has been used
         as a navigational tool in the northern hemisphere for centuries. Scientifically speaking, this star is known as
@@ -19,6 +21,9 @@ const starInfo = {
     sirius: {
         name: 'Sirius',
         img: './img/sirius.jpg',
+        imgSource: `Image credit: <a href="https://pixabay.com/users/dom1706-3240332/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_
+        campaign=image&amp;utm_content=2080966">dominique</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=
+        referral&amp;utm_campaign=image&amp;utm_content=2080966">Pixabay</a>`,
         info: `<p>Also known as the Dog Star, because it’s the brightest star in Canis Major (the “Big Dog”), Sirius is also the brightest star 
         in the night sky. The name “Sirius” is derived from the Ancient Greek “Seirios“, which translates to “glowing” or “scorcher”. Whereas 
         it appears to be a single bright star to the naked eye, Sirius is actually a binary star system, consisting of a white main-sequence 
@@ -32,6 +37,8 @@ const starInfo = {
     alpha: {
         name: 'Alpha Centauri System',
         img: './img/alpha.jpg',
+        imgSource: `Image credit: ESO/Digitized Sky Survey 2 Acknowledgement: Davide De Martin - <a href="https://www.space.com/18090-alpha-centauri-
+        nearest-star-system.html">https://www.space.com/18090-alpha-centauri-nearest-star-system.html</a>`,
         info: `<p>Also known as Rigel Kent or Toliman, Alpha Centauri is the brightest star in the southern constellation of Centaurus and the third 
         brightest star in the night sky. It is also the closest star system to Earth, at just a shade over four light-years. But much like Sirius 
         and Polaris, it is actually a multistar system, consisting of Alpha Centauri A, B, and Proxima Centauri (aka. Centauri C).</p> <p>Based on their 
@@ -46,6 +53,8 @@ const starInfo = {
     betelgeuse: {
         name: 'Betelgeuse',
         img: './img/betelgeuse.jpg',
+        imgSource: `Image credit: Javier Zayas Photography/Getty Images - <a href = "https://www.gettyimages.com/detail/photo/the-star-betelgeuse-royalty-free-image/1297828511">
+        https://www.gettyimages.com/detail/photo/the-star-betelgeuse-royalty-free-image/1297828511</a>`,
         info: `<p>Pronounced “Beetle-juice” (yes, the same as the 1988 Tim Burton movie), this bright red supergiant is roughly 65o light-year from Earth. Also 
         known as Alpha Orionis, it is nevertheless easy to spot in the Orion constellation since it is one of the largest and most luminous stars in the night 
         sky.</p> <p>The star’s name is derived from the Arabic name Ibt al-Jauza’, which literally means “the hand of Orion”. In 1985, Margarita Karovska and colleagues 
@@ -56,6 +65,7 @@ const starInfo = {
     rigel: {
         name: 'Rigel',
         img: './img/rigel.jpg',
+        imgSource: `Image credit: Fred Espenak, 2011 - <a href = "http://astropixels.com/stars/Rigel-01.html">http://astropixels.com/stars/Rigel-01.html</a>`,
         info: `<p>Also known as Beta Orionis, and located between 700 and 900 light years away, Rigel is the brightest star in the constellation Orion and the seventh 
         brightest star in the night sky. Here too, what appears to be a blue supergiant is actually a multistar system. The primary star (Rigel A) is a blue-white 
         supergiant that is 21 times more massive than our sun, and shines with approximately 120,000 times the luminosity.</p> <p>Rigel B is itself a binary system, consisting 
@@ -67,6 +77,8 @@ const starInfo = {
     vega: {
         name: 'Vega',
         img: './img/vega.jpg',
+        imgSource: `Image credit: Stephen Rahn, CC 0 - <a href="https://skyandtelescope.org/astronomy-news/vega-the-star-at-the-center-of-everything/">https://skyandtelescope
+        .org/astronomy-news/vega-the-star-at-the-center-of-everything/</a>`,
         info: `<p>Vega is another bright blue star that anchors the otherwise faint Lyra constellation (the Harp). Along with Deneb (from Cygnus) and Altair (from Aquila), 
         it is a part of the Summer Triangle in the Northern hemisphere. It is also the brightest star in the constellation Lyra, the fifth brightest star in the night sky 
         and the second brightest star in the northern celestial hemisphere (after Arcturus).</p> <p>Characterized as a white dwarf star, Vega is roughly 2.1 times as massive as 
@@ -81,6 +93,9 @@ const starInfo = {
     pleiades: {
         name: 'Pleiades',
         img: './img/pleiades.jpg',
+        imgSource: `Image credit:  NASA, ESA, AURA/Caltech, Palomar Observatory The science team consists of: D. Soderblom and E. Nelan (STScI), F. Benedict and B. Arthur 
+        (U. Texas), and B. Jones (Lick Obs.) - <a href = "https://hubblesite.org/contents/media/images/2004/20/1562-Image.html?Topic=104-stars-and-nebulas&keyword=pleiades">
+        https://hubblesite.org/contents/media/images/2004/20/1562-Image.html?Topic=104-stars-and-nebulas&keyword=pleiades</a>`,
         info: `<p>Also known as the “Seven Sisters”, Messier 45 or M45, Pleiades is actually an open star cluster located in the constellation of Taurus. At an average 
         distance of 444 light years from our Sun, it is one of the nearest star clusters to Earth, and the most visible to the naked eye. Though the seven largest stars are 
         the most apparent, the cluster actually consists of over 1,000 confirmed members (along with several unconfirmed binaries).</p> <p>The core radius of the cluster is about 
@@ -92,6 +107,7 @@ const starInfo = {
     antares: {
         name: 'Antares',
         img: './img/antares.jpg',
+        imgSource: `Fred Espenak, 2011 - <a href="http://astropixels.com/stars/Antares-01.html">http://astropixels.com/stars/Antares-01.html</a>`,
         info: `<p>Also known as Alpha Scorpii, Antares is a red supergiant and one of the largest and most luminous observable stars in the nighttime sky. It’s name – which is 
         Greek for “rival to Mars” (aka. Ares) – refers to its reddish appearance, which resembles Mars in some respects. It’s location is also close to the ecliptic, the 
         imaginary band in the sky where the planets, Moon and Sun move.</p> <p>This supergiant is estimated to be 17 times more massive, 850 times larger in terms of diameter, and 
@@ -103,6 +119,7 @@ const starInfo = {
     canopus: {
         name: 'Canopus',
         img: './img/canopus.jpg',
+        imgSource: `Fred Espenak, 2011 - <a href = "http://astropixels.com/stars/Canopus-01.html">http://astropixels.com/stars/Canopus-01.html</a>`,
         info: `<p>Also known as Alpha Carinae, this white giant is the brightest star in the southern constellation of Carina and the second brightest star in the nighttime sky. 
         Located over 300 light-years away from Earth, this star is named after the mythological Canopus, the navigator for king Menelaus of Sparta in The Iliad.</p> <p>Though it was 
         not visible to the ancient Greeks and Romans, the star was known to the ancient Egyptians, as well as the Navajo, Chinese and ancient Indo-Aryan people. In Vedic 
@@ -119,6 +136,7 @@ const starInfo = {
 
 const starName = document.querySelector('#starName');
 const starImg = document.querySelector('#starImg');
+const starImgSource = document.querySelector('#imgSource');
 const starInfoText = document.querySelector('#starInfo');
 const polarisButton = document.querySelector('#polarisButton');
 const siriusButton = document.querySelector('#siriusButton');
@@ -133,6 +151,7 @@ const canopusButton = document.querySelector('#canopusButton');
 function changeStar (star) {
     starName.innerText = star.name;
     starImg.src = star.img;
+    starImgSource.innerHTML = star.imgSource;
     starInfoText.innerHTML = star.info;
 };
 
