@@ -1,7 +1,8 @@
 const starInfo = {
     polaris : {
         name: 'Polaris',
-        img: './img/polaris.jpg',
+        img: ['./img/polaris.jpg', `A photo of the star Polaris glowing blue while surrounded by its integrated flux nebula, which
+        looks like a mass of misty gray clouds surrounding and slightly obscuring Polaris.`],
         imgSource: `Image credit: Kush.Chandaria - Own work, CC BY-SA 4.0 - <a
         href="https://commons.wikimedia.org/w/index.php?curid=108074228">https://commons.wikimedia.org/w/index.php?curid=108074228</a>'`,
         info: `<p>Also known as the North Star (as well as the Pole Star, Lodestar, and sometimes Guiding Star), Polaris is the
@@ -20,7 +21,7 @@ const starInfo = {
     },
     sirius: {
         name: 'Sirius',
-        img: './img/sirius.jpg',
+        img: ['./img/sirius.jpg', 'A photo of the star Sirius shining bright and white in a starry night sky.'],
         imgSource: `Image credit: <a href="https://pixabay.com/users/dom1706-3240332/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_
         campaign=image&amp;utm_content=2080966">dominique</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=
         referral&amp;utm_campaign=image&amp;utm_content=2080966">Pixabay</a>`,
@@ -36,7 +37,9 @@ const starInfo = {
     },
     alpha: {
         name: 'Alpha Centauri System',
-        img: './img/alpha.jpg',
+        img: ['./img/alpha.jpg', `A photo of the triple Alpha Centauri system with the three stars in front of a sea of red-orange stars and galaxies, 
+        with the middle star being much larger and glowing bright white and the two other stars on its lower-left and right sides being much smaller
+        and glowing orange.`],
         imgSource: `Image credit: ESO/Digitized Sky Survey 2 Acknowledgement: Davide De Martin - <a href="https://www.space.com/18090-alpha-centauri-
         nearest-star-system.html">https://www.space.com/18090-alpha-centauri-nearest-star-system.html</a>`,
         info: `<p>Also known as Rigel Kent or Toliman, Alpha Centauri is the brightest star in the southern constellation of Centaurus and the third 
@@ -52,7 +55,8 @@ const starInfo = {
     },
     betelgeuse: {
         name: 'Betelgeuse',
-        img: './img/betelgeuse.jpg',
+        img: ['./img/betelgeuse.jpg', `An image of Betelgeuse as seen from the Natural park of Cabo de Gata, Almería, Andalusia, South of Spain. It's glowing
+        a bright orange color in the middle of a starry sky.`],
         imgSource: `Image credit: Javier Zayas Photography/Getty Images - <a href = "https://www.gettyimages.com/detail/photo/the-star-betelgeuse-royalty-free-image/1297828511">
         https://www.gettyimages.com/detail/photo/the-star-betelgeuse-royalty-free-image/1297828511</a>`,
         info: `<p>Pronounced “Beetle-juice” (yes, the same as the 1988 Tim Burton movie), this bright red supergiant is roughly 65o light-year from Earth. Also 
@@ -64,7 +68,7 @@ const starInfo = {
     },
     rigel: {
         name: 'Rigel',
-        img: './img/rigel.jpg',
+        img: ['./img/rigel.jpg', `A photo of the star Rigel glowing blue and white in front of a starry night sky.`],
         imgSource: `Image credit: Fred Espenak, 2011 - <a href = "http://astropixels.com/stars/Rigel-01.html">http://astropixels.com/stars/Rigel-01.html</a>`,
         info: `<p>Also known as Beta Orionis, and located between 700 and 900 light years away, Rigel is the brightest star in the constellation Orion and the seventh 
         brightest star in the night sky. Here too, what appears to be a blue supergiant is actually a multistar system. The primary star (Rigel A) is a blue-white 
@@ -76,7 +80,7 @@ const starInfo = {
     },
     vega: {
         name: 'Vega',
-        img: './img/vega.jpg',
+        img: ['./img/vega.jpg', `A photo of the star Vega gglowing a brilliant white against a starry night sky.`],
         imgSource: `Image credit: Stephen Rahn, CC 0 - <a href="https://skyandtelescope.org/astronomy-news/vega-the-star-at-the-center-of-everything/">https://skyandtelescope
         .org/astronomy-news/vega-the-star-at-the-center-of-everything/</a>`,
         info: `<p>Vega is another bright blue star that anchors the otherwise faint Lyra constellation (the Harp). Along with Deneb (from Cygnus) and Altair (from Aquila), 
@@ -92,7 +96,7 @@ const starInfo = {
     },
     pleiades: {
         name: 'Pleiades',
-        img: './img/pleiades.jpg',
+        img: ['./img/pleiades.jpg', `A photo of seven large, glowing blue stars making up the Pleiades scattered across the night sky.`],
         imgSource: `Image credit:  NASA, ESA, AURA/Caltech, Palomar Observatory The science team consists of: D. Soderblom and E. Nelan (STScI), F. Benedict and B. Arthur 
         (U. Texas), and B. Jones (Lick Obs.) - <a href = "https://hubblesite.org/contents/media/images/2004/20/1562-Image.html?Topic=104-stars-and-nebulas&keyword=pleiades">
         https://hubblesite.org/contents/media/images/2004/20/1562-Image.html?Topic=104-stars-and-nebulas&keyword=pleiades</a>`,
@@ -106,7 +110,7 @@ const starInfo = {
     },
     antares: {
         name: 'Antares',
-        img: './img/antares.jpg',
+        img: ['./img/antares.jpg', `A photo of the star Antares glowing a bright red-orange against a hazy orange nebula and many orange stars.`],
         imgSource: `Fred Espenak, 2011 - <a href="http://astropixels.com/stars/Antares-01.html">http://astropixels.com/stars/Antares-01.html</a>`,
         info: `<p>Also known as Alpha Scorpii, Antares is a red supergiant and one of the largest and most luminous observable stars in the nighttime sky. It’s name – which is 
         Greek for “rival to Mars” (aka. Ares) – refers to its reddish appearance, which resembles Mars in some respects. It’s location is also close to the ecliptic, the 
@@ -118,7 +122,7 @@ const starInfo = {
     },
     canopus: {
         name: 'Canopus',
-        img: './img/canopus.jpg',
+        img: ['./img/canopus.jpg', `A photo of the star Canopus shining purple and white, with a hint of a green nebula below it.`],
         imgSource: `Fred Espenak, 2011 - <a href = "http://astropixels.com/stars/Canopus-01.html">http://astropixels.com/stars/Canopus-01.html</a>`,
         info: `<p>Also known as Alpha Carinae, this white giant is the brightest star in the southern constellation of Carina and the second brightest star in the nighttime sky. 
         Located over 300 light-years away from Earth, this star is named after the mythological Canopus, the navigator for king Menelaus of Sparta in The Iliad.</p> <p>Though it was 
@@ -150,7 +154,8 @@ const canopusButton = document.querySelector('#canopusButton');
 
 function changeStar (star) {
     starName.innerText = star.name;
-    starImg.src = star.img;
+    starImg.src = star.img[0];
+    starImg.alt = star.img[1];
     starImgSource.innerHTML = star.imgSource;
     starInfoText.innerHTML = star.info;
 };
