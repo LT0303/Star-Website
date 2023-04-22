@@ -55,7 +55,7 @@ const starInfo = {
     },
     rigel: {
         name: 'Rigel',
-        img: './img/sirius-gbec34028e_640.jpg',
+        img: './img/betelgeuse.webp',
         info: `<p>Also known as Beta Orionis, and located between 700 and 900 light years away, Rigel is the brightest star in the constellation Orion and the seventh 
         brightest star in the night sky. Here too, what appears to be a blue supergiant is actually a multistar system. The primary star (Rigel A) is a blue-white 
         supergiant that is 21 times more massive than our sun, and shines with approximately 120,000 times the luminosity.</p> <p>Rigel B is itself a binary system, consisting 
