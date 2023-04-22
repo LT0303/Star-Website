@@ -1,7 +1,7 @@
 body {
     background-image: url(./img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(197, 199, 201);
+    color: rgb(226, 227, 228);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,40 +12,61 @@ body {
     text-align: center;
 }
 
-header {
+img {
+    max-height: 300px;
+    min-width: auto;
+    max-width: 100vw;
+}
+
+header, figure, footer, section {
+    min-width: 0;
     max-width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
-    max-width: 90vw;
+    margin: 1em;
 }
 
 footer {
-    max-width: 90vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: auto;
+}
+
+button {
+    height: 3em;
+    background-color: rgb(10, 33, 56);
+    color: aliceblue;
+    border-color: rgb(221, 204, 51);
+    border-radius: 50%;
+    margin: 0.5em;
+    transition: background-color 0.22s, ;
+}
+
+button:hover {
+    background-color:rgb(11, 38, 63);
 }
 
 a,
 a:visited {
     text-decoration: none;
-    color: rgb(197, 199, 201);
+    color:rgb(226, 227, 228);
 }
 
 .starButtons {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items:stretch;
+    flex-direction: column;
+}
+
+#imgSource, #sourceURL {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 #starInfo {
@@ -57,6 +78,19 @@ a:visited {
     padding: 1em;
 }
 
-#starImg {
-    width: 100%;
+@media(min-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    button {
+        width: 7em;
+        height: 7em;
+    }
+    .starButtons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
