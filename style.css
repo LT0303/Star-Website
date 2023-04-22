@@ -20,3 +20,9 @@ img {
     width: 100vw;
     height: auto;
 }
+
+.starButtons {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
